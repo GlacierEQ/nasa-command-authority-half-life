@@ -1,0 +1,1 @@
+"""Command authority half-life."""
