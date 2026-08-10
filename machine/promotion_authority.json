@@ -1,0 +1,11 @@
+{
+  "schema": "glaciereq.promotion-authority-grant.v1",
+  "repository": "GlacierEQ/nasa-command-authority-half-life",
+  "source_sha": "9c054cf6ebde65a94b2e8f33851e9360c084c95dc04fcb3c62c76f654a7fda85",
+  "proof_receipt_digest": "464802631e5db5c8f99f39f26ad7cc079e1b72c231150b6ec3dc2d8cecbb8917",
+  "not_after": 1788927149.234226,
+  "mac": "5a0de37caccc0b6b027a2774af0155a1b3ec47d461e19010ae95c608a1b8daf3",
+  "issuer": "local_operator_promotion_authority",
+  "verified": true,
+  "secret_ref": "src/promotion_authority.py::LOCAL_OPERATOR_SECRET"
+}

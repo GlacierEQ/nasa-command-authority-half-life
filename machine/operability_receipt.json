@@ -1,0 +1,27 @@
+{
+  "schema": "glaciereq.operability-receipt.v1",
+  "repository": "GlacierEQ/nasa-command-authority-half-life",
+  "at": "2026-08-10T04:12Z",
+  "source_sha": "9c054cf6ebde65a94b2e8f33851e9360c084c95dc04fcb3c62c76f654a7fda85",
+  "entry": "scripts/operate.py",
+  "primary_output": {
+    "module": "command_authority",
+    "ok": true,
+    "repository": "GlacierEQ/nasa-command-authority-half-life",
+    "smoke": {
+      "args": [
+        "Command(command_id='sample_command_id', ",
+        "1.0"
+      ],
+      "content_checked": true,
+      "invoked": true,
+      "kind": "class",
+      "method": "mint",
+      "module_local": true,
+      "name": "CommandAuthority",
+      "result": "AuthorityToken(token_id='tok-1', command_digest='f8dd131553cacf742d2d7f4fa2094384f3a81d82b5b505cf9e51efa41236c2ba', not_before=1.0, not_after=6.0, mac='307ade3585780b8d44e0fe67c00d556b6a3e84a8e237ce2b46d91d6fd45b4153')"
+    }
+  },
+  "dual_run_ok": true,
+  "result": "PASS"
+}

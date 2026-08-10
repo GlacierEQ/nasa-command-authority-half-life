@@ -1,0 +1,31 @@
+{
+  "schema": "glaciereq.proof-receipt.v1",
+  "repository": "GlacierEQ/nasa-command-authority-half-life",
+  "source_sha": "9c054cf6ebde65a94b2e8f33851e9360c084c95dc04fcb3c62c76f654a7fda85",
+  "proof_id": "elite-nasa-command-authority-half-life-1786335149",
+  "environment": {
+    "python": "/Users/kcbflux/job-app/excellence/.venv-elite/bin/python",
+    "PYTHONPATH": "/Users/kcbflux/job-app/repos/nasa-command-authority-half-life:/Users/kcbflux/job-app/repos/nasa-command-authority-half-life/src",
+    "entry": "unittest"
+  },
+  "tests": [
+    "/Users/kcbflux/job-app/excellence/.venv-elite/bin/python -m unittest discover -s tests -v (x2)"
+  ],
+  "adversarial_tests": [
+    "tests/test_adversarial.py"
+  ],
+  "runtime": {
+    "operate": "scripts/operate.py (x2)",
+    "dual_run_ok": true,
+    "proof_dual_run_ok": true
+  },
+  "result": "PASS",
+  "limitations": [
+    "not production deployed",
+    "reference implementation only"
+  ],
+  "timestamp": "2026-08-10T04:12Z",
+  "artifact_hashes": {
+    "operability_receipt": "4bb20cee1890cc619399c35958c200e924f68e95cad5b1fd4a2c5a930853486e"
+  }
+}
