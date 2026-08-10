@@ -1,1 +1,24 @@
-{"capabilities": ["hyper-scaling"]}
+{
+  "schema": "glaciereq.repo-capabilities.v1",
+  "repository": "GlacierEQ/nasa-command-authority-half-life",
+  "capability_family": "time_bounded_command_authority",
+  "capabilities": [
+    "command-digest-bound-authority-tokens",
+    "short-lived-command-authority",
+    "HMAC-token-integrity",
+    "command-mismatch-refusal",
+    "authority-window-refusal",
+    "single-use-token-replay-refusal",
+    "deterministic-fire-receipts"
+  ],
+  "evidence_refs": [
+    "src/command_authority.py",
+    "go/cmdauth/cmdauth.go",
+    "tests/test_command_authority.py",
+    "tests/test_adversarial.py",
+    "go/cmdauth/cmdauth_test.go",
+    "machine/proof_receipt.json",
+    "machine/canonical-position.json"
+  ],
+  "truth_boundary": "Repository-local simulated command-authority mechanisms only. No NASA adoption, production spacecraft command deployment, or exercised integration with the telemetry sibling is implied."
+}
